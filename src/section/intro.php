@@ -46,7 +46,7 @@
   }
 
   /* mobile */
-  @media (max-width: 480px) {
+  @media (max-width: 880px) {
     .intro .left {
       float: none;
       width: 100%;

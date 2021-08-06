@@ -30,7 +30,7 @@
   .aziende .contenutoalign {
     padding-right: 200px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 880px) {
     .aziende .contenuto {
       padding-top: 100px;
       padding-left: 10px;

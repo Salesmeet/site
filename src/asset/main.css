@@ -40,7 +40,7 @@ a {
 .mobile {
   display: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 880px) {
   .desktop {
     display: none;
   }

@@ -33,7 +33,7 @@
     float: right;
     padding-right: 60px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 880px) {
     .footer {
         text-align: center;
         margin-left: 20px;
