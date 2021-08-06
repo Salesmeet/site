@@ -27,7 +27,7 @@ services:
     build: ./src
     labels:
       - "traefik.backend=salesmeet-ai-www"
-      - "traefik.frontend.rule=Host:www.salesmeet.ai"
+      - "traefik.frontend.rule=Host:local.salesmeet.ai"
       - "traefik.docker.network=salesmeetnetworksito"
     volumes:
       - ./src:/var/www/html
