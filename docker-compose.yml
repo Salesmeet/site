@@ -1,0 +1,40 @@
+version: '3.3'
+services:
+
+  # PROXY #####################################################################################
+  salesmeet-proxy:
+    image: traefik:1.7.4-alpine
+    labels:
+      - "traefik.frontend.rule=Host:monitor.salesmeet.ai"
+      - "traefik.port=8080"
+      - "traefik.docker.network=salesmeetnetworksito"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik:/traefik/
+    ports:
+      - "80:80"
+      - "443:443"
+      - '8080:8080'
+    networks:
+      - salesmeetnetworksito
+    # command: -c /dev/null --web --docker --logLevel=DEBUG --defaultEntryPoints='https,http' --entryPoints="Name:https Address::443 TLS:/traefik/traefik/uiexit/cert1.pem,/traefik/traefik/uiexit/privkey1.pem" --entryPoints="Name:http Address::80"
+    command: -c /dev/null --web --docker --logLevel=DEBUG --defaultEntryPoints='https,http' --entryPoints="Name:https Address::443 TLS:/traefik/cert.pem,/traefik/privkey.pem" --entryPoints="Name:http Address::80"
+    # command: -c /dev/null --web --docker --logLevel=DEBUG --defaultEntryPoints='https,http' --entryPoints="Name:http Address::80"
+
+
+  # CHECK PROFILO #################
+  salesmeet-www:
+    build: ./src
+    labels:
+      - "traefik.backend=salesmeet-ai-www"
+      - "traefik.frontend.rule=Host:www.salesmeet.ai"
+      - "traefik.docker.network=salesmeetnetworksito"
+    volumes:
+      - ./src:/var/www/html
+      #- ./salesmeet/src:/usr/share/nginx/html
+    networks:
+      - salesmeetnetworksito
+
+networks:
+  salesmeetnetworksito:
+    external: true
