@@ -33,6 +33,34 @@
     float: right;
     padding-right: 60px;
   }
+  @media (max-width: 480px) {
+    .footer {
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer .logo {
+        float: none;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .footer .list {
+      float: none;
+      padding-left: 0px;
+        width: 90%;
+    }
+    .footer .social {
+      float: none;
+      padding-top: 15px;
+      padding-bottom: 35px;
+    }
+    .footer .social i {
+      float: left;
+      padding-left: 0px;
+      padding-right: 20px;
+    }
+  }
+
 </style>
 <div class="footer" id="">
   <div class="logo"><img src="img/Logo.png"></div>
@@ -41,8 +69,8 @@
     <div class="item">Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla </div>
   </div>
   <div class="social">
-    <i class="fab fa-linkedin"></i><br>
-    <i class="fab fa-facebook-square"></i><br>
+    <i class="fab fa-linkedin"></i><br class="desktop">
+    <i class="fab fa-facebook-square"></i><br class="desktop">
     <i class="fab fa-linkedin"></i>
   </div>
 </div>

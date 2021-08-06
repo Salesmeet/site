@@ -30,6 +30,17 @@
   .aziende .contenutoalign {
     padding-right: 200px;
   }
+  @media (max-width: 480px) {
+    .aziende .contenuto {
+      padding-top: 100px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+    }
+    .aziende .contenutoalign {
+        padding-right: 10px;
+    }
+  }
 </style>
 <div class="aziende" id="howitworksdiv">
     <div class="object1"><img src="img/Ellipse10.png"></div>

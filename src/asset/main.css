@@ -56,7 +56,8 @@ a {
     line-height: 36px;
   }
   .subdescription {
-    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 

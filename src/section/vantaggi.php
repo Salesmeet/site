@@ -77,6 +77,15 @@
     text-align: right;
   }
 
+  @media (max-width: 480px) {
+    .vantaggi .contenuto {
+      padding-top: 100px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+    }
+  }
+
 </style>
 <div class="vantaggi" id="">
     <div class="object1"><img src="img/Ellipse7.png"></div>
