@@ -1,6 +1,7 @@
 /* COMMON */
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
 .separator {
   clear: both;
@@ -33,6 +34,19 @@ body {
 a {
   text-decoration: none;
   color: #000;
+}
+
+/* MOBILE */
+.mobile {
+  display: none;
+}
+@media (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
 
 
