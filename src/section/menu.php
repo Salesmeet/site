@@ -170,7 +170,7 @@
   <div class="mobilemenuitem" id="mobilemenuitem">
     <div class="mobilelogo"><img src="img/Logo.png"></div>
     <div class="mobilemenu">
-      <a href="#" id="closemobilemenu"><i class="far fa-window-close"></i></a>
+      <a href="#" id="closemobilemenu"><i class="fas fa-times"></i></a>
     </div>
     <div class="listmobile">
       <div class="itemmobile testomobile"><a href="#" id="ourproductsmobile">Our products</a></div>

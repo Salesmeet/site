@@ -47,6 +47,17 @@ a {
   .mobile {
     display: block;
   }
+  .title {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .description {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .subdescription {
+    font-size: 14px;
+  }
 }
 
 
