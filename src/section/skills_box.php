@@ -19,6 +19,7 @@
         <div class="title">Booking</div>
         <div class="description">This category contains skills that facilitate follow-up meetings scheduling and the retrival of previous meetings information like agendas, participants, and many other.</div>
       </div>
+      
       <div class="itemslide">
         <div class="icona"><center><img src="img/icone/message.png"></center></div>
         <div class="title">Video conferencing</div>
