@@ -28,11 +28,13 @@
     <div class="object2"><img src="img/Ellipse1.png"></div>
     <div class="contenuto">
       <div class="title">OUR PRODUCT</div>
-      <div class="description">A skills at your service</div>
-      <div class="subdescription">We provide the first platform as a service for creating your personalized AI ... </div>
+      <div class="description">SAME Ai meeting assistant skills</div>
+      <div class="subdescription desktop">Connect SAME Ai with your favorite communication platform to enable your personal<br> assistant to participate to your meetings, listen, answer customer questions, and<br> automate tedious and repetitive tasks.</div>
+      <div class="subdescription mobile">Connect SAME Ai with your favorite communication platform to enable your personal assistant to participate to your meetings, listen, answer customer questions, and automate tedious and repetitive tasks.</div>
     </div>
-
     <?php include("section/skills_slide.php") ?>
-
 </div>
+
+
+
 <div class="separator"></div>

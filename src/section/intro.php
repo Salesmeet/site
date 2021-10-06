@@ -39,9 +39,9 @@
   }
   .intro .right .object3 {
       position: absolute;
-      top: 15%;
-      right: 0px;
-      width: 45%;
+      top: 25%;
+      right: -150px;
+      width: 55%;
       z-index: 4;
   }
 
@@ -103,15 +103,21 @@
 <div class="intro">
   <div class="left">
     <div class="contenuto">
-      <div class="title">Online Sales Meetings will never be the SAME</div>
-      <div class="description">We provide the first platform as a service for creating your personalized AI Virtual Sales Assistant, helping your Sales Team before and during online meetings with clients and accelerating your sales pipeline.</div>
+      <div class="title">WORK SMARTER With SAME Ai MEETING ASSISTANT</div>
+      <div class="description">
+        Catch on everything.<br>
+        Answer on cue.<br>
+        Take notes.<br>
+        Send Recaps.<br>
+        <b>Add new skills for Artificial Intelligence boosted meetings.</b>
+      </div>
     </div>
   </div>
   <div class="right desktop">
       <img class="object1" src="img/Ellipse2.png">
       <img class="object2" src="img/Ellipse4.png">
       <img class="object4" src="img/Ellipse3.png">
-      <img class="object3" src="img/hero1.png">
+      <img class="object3" src="img/home_img.png">
   </div>
 
   <!-- mobile -->
@@ -122,7 +128,7 @@
   <img class="object5mobile mobile" src="img/Ellipse8.png">
 
   <div class="mobile">
-      <img class="object3mobile" src="img/hero1.png">
+      <img class="object3mobile" src="img/home_img.png">
   </div>
 
 

@@ -65,9 +65,10 @@
 <div class="footer" id="">
   <div class="logo"><img src="img/Logo.png"></div>
   <div class="list">
-    <div class="item">Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla </div>
-    <div class="item">Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla </div>
+    <div class="item">© Copyright 2021 | SalesMeet Inc | 244 Madison Avenue #1062 - New York | info@salesmeet.ai </div>
+    <div class="item">All rights reserved</div>
   </div>
+
   <div class="social">
     <i class="fab fa-linkedin"></i><br class="desktop">
     <i class="fab fa-facebook-square"></i><br class="desktop">

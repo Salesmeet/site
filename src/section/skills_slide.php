@@ -71,40 +71,28 @@
         margin-bottom: 30px;
         height: 306px;
     }
+    /* mobile */
+    @media (max-width: 880px) {
+      .skillsslidecontainer .slick-dotted.slick-slider {
+          height: 406px;
+      }
+      .slider {
+          width: 85%;
+      }
+      .itemslide {
+          width: 300px !important;
+          height: 403px !important;
+      }
+      .skillsslide .description {
+          width: 270px;
+          padding-left: 20px;
+      }
+    }
   </style>
 
   <div class="skillsslidecontainer">
     <section class="skillsslide slider">
-      <div class="itemslide">
-        <div class="icona"><center><img src="img/chat.png"></center></div>
-        <div class="title">CHATBOT</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
-      </div>
-      <div class="itemslide">
-        <div class="icona"><center><img src="img/chat.png"></center></div>
-        <div class="title">CHATBOT</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
-      </div>
-      <div class="itemslide">
-        <div class="icona"><center><img src="img/chat.png"></center></div>
-        <div class="title">CHATBOT</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
-      </div>
-      <div class="itemslide">
-        <div class="icona"><center><img src="img/chat.png"></center></div>
-        <div class="title">CHATBOT</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
-      </div>
-      <div class="itemslide">
-        <div class="icona"><center><img src="img/chat.png"></center></div>
-        <div class="title">CHATBOT</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
-      </div>
-      <div class="itemslide">
-        <div class="icona"><center><img src="img/chat.png"></center></div>
-        <div class="title">CHATBOT</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
-      </div>
+      <?php include("section/skills_box.php") ?>
     </section>
   </div>
 
