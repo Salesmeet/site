@@ -149,18 +149,28 @@
 
     });
 </script>
+
+<?php
+$uri = $_SERVER['REQUEST_URI'];
+?>
 <div class="menu">
-  <div class="logo"><img src="img/Logo.png"></div>
-  <div class="list desktop">
-    <div class="item testo"><a href="#" id="ourproducts">Our products</a></div>
-    <div class="item testo"><a href="#" id="howitworks">How it works</a></div>
-    <!--
-    <div class="item testo">Pricing</div>
-    <div class="item testo"><a href="#" id="contactus">Contact us</a></div>
-  -->
-  </div>
+  <div class="logo"><a href="index.php"><img src="img/Logo.png"></a></div>
+
+  <?php if ($uri!="/login.php") { ?>
+
+      <div class="list desktop">
+        <div class="item testo"><a href="#" id="ourproducts">Our products</a></div>
+        <div class="item testo"><a href="#" id="howitworks">How it works</a></div>
+        <!--
+        <div class="item testo">Pricing</div>
+        <div class="item testo"><a href="#" id="contactus">Contact us</a></div>
+      -->
+      </div>
+
+  <?php } ?>
+
+  <div class="login testo desktop"><a href="login.php"><i class="far fa-user"></i> Login</a></div>
   <!--
-  <div class="login testo desktop"><i class="far fa-user"></i> Login</div>
   <div class="try desktop">
     <div class="trybutton"><i class="fas fa-video"></i>&nbsp; Try it on zoom</div>
   </div>
@@ -177,12 +187,19 @@
       <a href="#" id="closemobilemenu"><i class="fas fa-times"></i></a>
     </div>
     <div class="listmobile">
-      <div class="itemmobile testomobile"><a href="#" id="ourproductsmobile">Our products</a></div>
-      <div class="itemmobile testomobile"><a href="#" id="howitworksmobile">How it works</a></div>
-      <!--
-      <div class="itemmobile testomobile">Pricing</div>
-      <div class="itemmobile testomobile"><a href="#" id="contactusmobile">Contact us</a></div>
-    -->
+
+      <?php if ($uri!="/login.php") { ?>
+
+          <div class="itemmobile testomobile"><a href="#" id="ourproductsmobile">Our products</a></div>
+          <div class="itemmobile testomobile"><a href="#" id="howitworksmobile">How it works</a></div>
+          <!--
+          <div class="itemmobile testomobile">Pricing</div>
+          <div class="itemmobile testomobile"><a href="#" id="contactusmobile">Contact us</a></div>
+        -->
+
+      <?php } ?>
+
+      <div class="itemmobile testomobile"><a href="login.php"><i class="far fa-user"></i> Login</a></div>
     </div>
   </div>
 
