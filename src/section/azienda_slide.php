@@ -30,21 +30,24 @@
       font-family: Heebo;
       font-style: normal;
       font-weight: 600;
-      font-size: 22px;
+      font-size: 14px;
       line-height: 32px;
       text-transform: capitalize;
       color: #9242FC;
       padding-left: 13px;
+      padding-top: 20px;
     }
     .aziendaslide .description {
       font-family: Heebo;
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
+      font-size: 22px;
       line-height: 21px;
       color: #545454;
       width: 280px;
       padding-left: 13px;
+      color: #9242FC;
+      padding-top: 20px;
     }
     .aziendaslidecontainer .slick-dotted.slick-slider {
         margin-bottom: 30px;
@@ -55,30 +58,32 @@
   <div class="aziendaslidecontainer">
     <section class="aziendaslide slider">
       <div class="aziendaitemslide">
-        <div class="icon"><i class="fas fa-users"></i></div>
-        <div class="title">Bel servizio</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
+        <div class="title">Step 1</div>
+        <div class="icon"><i class="fas fa-assistive-listening-systems"></i></div>
+        <div class="description">Listen & Record</div>
       </div>
       <div class="aziendaitemslide">
-        <div class="icon"><i class="fas fa-users"></i></div>
-        <div class="title">Bel servizio</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
+        <div class="title">Step 2</div>
+        <div class="icon"><i class="fa fa-commenting"></i></div>
+        <div class="description">Live Suggestions</div>
       </div>
       <div class="aziendaitemslide">
-        <div class="icon"><i class="fas fa-users"></i></div>
-        <div class="title">Bel servizio</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
+        <div class="title">Step 3</div>
+        <div class="icon"><i class="fa fa-pencil-square-o"></i></div>
+        <div class="description">Collect Notes</div>
       </div>
       <div class="aziendaitemslide">
-        <div class="icon"><i class="fas fa-users"></i></div>
-        <div class="title">Bel servizio</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
+        <div class="title">Step 4</div>
+        <div class="icon"><i class="fa fa-sticky-note-o"></i></div>
+        <div class="description">Create Recap</div>
       </div>
       <div class="aziendaitemslide">
-        <div class="icon"><i class="fas fa-users"></i></div>
-        <div class="title">Bel servizio</div>
-        <div class="description">It is a long established fact that a reader will be distracted by the readable content of a page ...</div>
+        <div class="title">Step 5</div>
+        <div class="icon"><i class="fas fa-check"></i></div>
+        <div class="description">Approve & Send</div>
       </div>
+
+
     </section>
   </div>
 

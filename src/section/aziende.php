@@ -30,6 +30,10 @@
   .aziende .contenutoalign {
     padding-right: 200px;
   }
+  .aziende .description {
+      font-size: 35px;
+  }
+  
   @media (max-width: 880px) {
     .aziende .contenuto {
       padding-top: 100px;
@@ -48,8 +52,10 @@
     <div class="object2"><img src="img/Ellipse11.png"></div>
     <div class="contenuto">
       <div class="title contenutoalign">How it works</div>
-      <div class="description contenutoalign">A skills at your service</div>
+      <div class="description contenutoalign">Automatically get insights out of any meeting in 5 steps</div>
+      <!--
       <div class="subdescription contenutoalign">We provide the first platform as a service for creating your personalized AI ... </div>
+      -->
     </div>
 
     <?php include("section/azienda_slide.php") ?>
