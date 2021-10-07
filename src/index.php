@@ -21,6 +21,7 @@
   <?php include("section/vantaggi.php") ?>
   <?php include("section/aziende.php") ?>
   <?php include("section/partners.php") ?>
+  <?php include("section/contact.php") ?>
   <?php include("section/footer.php") ?>
 
   </body>
