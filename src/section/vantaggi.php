@@ -115,10 +115,10 @@
     }
     .vantaggi .items-mobile {
         position: absolute;
-        top: 381px;
+        top: 371px;
     }
     .vantaggi .item-mobile {
-      padding-top: 16px;
+      padding-top: 26px;
       border-bottom: 1px solid #555;
       text-align: right;
       width: 150px;
