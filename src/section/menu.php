@@ -153,11 +153,11 @@
   <div class="logo"><img src="img/Logo.png"></div>
   <div class="list desktop">
     <div class="item testo"><a href="#" id="ourproducts">Our products</a></div>
-    <!--
     <div class="item testo"><a href="#" id="howitworks">How it works</a></div>
+    <!--
     <div class="item testo">Pricing</div>
-  -->
     <div class="item testo"><a href="#" id="contactus">Contact us</a></div>
+  -->
   </div>
   <!--
   <div class="login testo desktop"><i class="far fa-user"></i> Login</div>
@@ -178,11 +178,11 @@
     </div>
     <div class="listmobile">
       <div class="itemmobile testomobile"><a href="#" id="ourproductsmobile">Our products</a></div>
-      <!--
       <div class="itemmobile testomobile"><a href="#" id="howitworksmobile">How it works</a></div>
+      <!--
       <div class="itemmobile testomobile">Pricing</div>
-      -->
       <div class="itemmobile testomobile"><a href="#" id="contactusmobile">Contact us</a></div>
+    -->
     </div>
   </div>
 
