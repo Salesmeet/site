@@ -45,7 +45,7 @@
     }
     .skillsslide .icona img {
       width: 100px;
-      padding: 20px;
+      padding: 0px;
     }
     .skillsslide .title {
       font-family: Heebo;
