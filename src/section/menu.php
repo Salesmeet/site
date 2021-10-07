@@ -52,7 +52,7 @@
       font-size: 15px;
       line-height: 22px;
       padding-left: 40px;
-      padding-top: 10px;
+      padding-top: 25px;
     }
 
     /* mobile */
