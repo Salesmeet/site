@@ -95,15 +95,11 @@
   <div class="buttoncontenitore">
       <div class="button"><a href="mailto:info@salesmeet.ai">NEED HELP? LET’S CHAT</a></div>
   </div>
-
   <div class="">
       <img class="object1" src="img/Ellipse2.png">
       <img class="object2" src="img/Ellipse4.png">
       <img class="object4" src="img/Ellipse3.png">
   </div>
-
 </div>
-
-
 
 <div class="separator"></div>
