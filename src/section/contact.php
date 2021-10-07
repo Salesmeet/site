@@ -19,6 +19,8 @@
     line-height: 69px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 99999;
+    position: relative;
   }
   .contact .description {
     font-family: Heebo;
@@ -28,6 +30,8 @@
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 99999;
+    position: relative;
   }
   .contact .object1 {
       position: absolute;
