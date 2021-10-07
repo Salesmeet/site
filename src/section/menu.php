@@ -161,9 +161,9 @@ $uri = $_SERVER['REQUEST_URI'];
       <div class="list desktop">
         <div class="item testo"><a href="#" id="ourproducts">Our products</a></div>
         <div class="item testo"><a href="#" id="howitworks">How it works</a></div>
+        <div class="item testo"><a href="#" id="contactus">Contact us</a></div>
         <!--
         <div class="item testo">Pricing</div>
-        <div class="item testo"><a href="#" id="contactus">Contact us</a></div>
       -->
       </div>
 
@@ -194,9 +194,8 @@ $uri = $_SERVER['REQUEST_URI'];
           <div class="itemmobile testomobile"><a href="#" id="howitworksmobile">How it works</a></div>
           <!--
           <div class="itemmobile testomobile">Pricing</div>
-          <div class="itemmobile testomobile"><a href="#" id="contactusmobile">Contact us</a></div>
         -->
-
+          <div class="itemmobile testomobile"><a href="#" id="contactusmobile">Contact us</a></div>
       <?php } ?>
 
       <div class="itemmobile testomobile"><a href="login.php"><i class="far fa-user"></i> Login</a></div>
