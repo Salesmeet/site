@@ -5,7 +5,7 @@
         <div class="description">If your company is using a CRM to manage customer-related information like address, language, preferences, this category of skills will enable SAME Ai to retrieve information in your CRM right when you need them the most. If you collected additional information SAME Ai can send information to the CRM for later utilization.</div>
       </div>
       <div class="itemslide">
-        <div class="icona"><center><img src="img/icone/message.png"></center></div>
+        <div class="icona"><center><img src="img/icone/message_new.png"></center></div>
         <div class="title">Messaging</div>
         <div class="description">Are you looking for the last email or message sent by someone, but you are lost in navigating too many tools? SAME Ai Messaging skills will help you retrieve what you are looking for by searching all the connected communication channels.</div>
       </div>
