@@ -18,6 +18,7 @@
   <?php include("section/menu.php") ?>
   <?php include("section/intro.php") ?>
   <?php include("section/skills.php") ?>
+  <?php include("section/vantaggi.php") ?>
   <?php include("section/footer.php") ?>
 
   </body>

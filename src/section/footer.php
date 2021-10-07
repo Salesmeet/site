@@ -70,9 +70,11 @@
   </div>
 
   <div class="social">
+    <!--
     <i class="fab fa-linkedin"></i><br class="desktop">
     <i class="fab fa-facebook-square"></i><br class="desktop">
     <i class="fab fa-linkedin"></i>
+    -->
   </div>
 </div>
 <div class="separator"></div>
