@@ -90,6 +90,9 @@
           width: 270px;
           padding-left: 20px;
       }
+      .skillsslide .title {
+          padding-left: 20px;
+      }
     }
   </style>
 

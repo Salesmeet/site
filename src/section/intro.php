@@ -4,7 +4,7 @@
 <style>
   .intro {
     width: 100%;
-    height: 1100px;
+    height: 900px;
   }
   .intro .left {
     float:left;
@@ -93,7 +93,7 @@
     .intro .object5mobile {
         position: absolute;
         left: 0%;
-        top: 90%;
+        top: 70%;
         z-index: 1;
         width: 100%;
     }

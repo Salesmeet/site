@@ -33,5 +33,5 @@
       <div class="itemslide">
         <div class="icona"><center><img src="img/icone/meeting-recap.png"></center></div>
         <div class="title">Smart meeting recap</div>
-        <div class="description">the Smart Meeting Recap is a native skill of SAME Ai and is installed by default. It allows to transform big voice data into conversation insights, facilitate the storage and retrival of previous meeting recordings and reduces the overall time to prepare and share recaps.</div>
+        <div class="description">The Smart Meeting Recap is a native skill of SAME Ai and is installed by default. It allows to transform big voice data into conversation insights, facilitate the storage and retrival of previous meeting recordings and reduces the overall time to prepare and share recaps.</div>
       </div>
