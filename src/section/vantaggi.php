@@ -90,7 +90,7 @@
 
   @media (max-width: 880px) {
     .vantaggi .contenuto {
-      padding-top: 100px;
+      padding-top: 160px;
       padding-left: 10px;
       padding-right: 10px;
       text-align: center;

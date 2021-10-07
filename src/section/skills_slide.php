@@ -73,6 +73,9 @@
     }
     /* mobile */
     @media (max-width: 880px) {
+      .skillsslidecontainer {
+          top: 300px;
+      }
       .skillsslidecontainer .slick-dotted.slick-slider {
           height: 406px;
       }
