@@ -66,7 +66,7 @@
   <div class="logo"><img src="img/Logo.png"></div>
   <div class="list">
     <div class="item">© Copyright 2021 | SalesMeet Inc | info@salesmeet.ai </div>
-    <div class="item">244 Madison Avenue #1062 - New York | Via corradino sella 10 Biella 13800 Italy </div>
+    <div class="item">244 Madison Avenue #1062 - New York | Via corradino sella 10 Biella 13800 - Italy </div>
     <div class="item">All rights reserved</div>
   </div>
 
